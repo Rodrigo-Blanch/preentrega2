@@ -1,0 +1,101 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    max-height: 20vh;
+    width: 100%;
+}
+#boxlorem {
+    width: 500px;
+}
+.pie-pagina {
+    width: 100%;
+    height: 165px;
+    background-color: #252424;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-height: 18vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 0.3fr);
+    grid-gap: 10px;
+    padding: 15px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 500px;
+    height: auto;
+}
+.boxlogodf {
+    margin-left: 1rem;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    color: #D6D6D6;
+    margin-bottom: 0px;
+    font-size: 20px;
+
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: #D6D6D6;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .box small {
+    color: #D6D6D6;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #D6D6D6;
+    margin-right: 10px;
+    background-color: #513F3F;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 300ms ease;
+    margin-left: 15px;
+}
+
+.box {
+    width: 300px;
+    align-items: center;
+}
+
+.red-social {
+    align-items: center;
+}
+
+.grupo-2 {
+    margin-top: 30px;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: rgb(126, 46, 46);
+}
+
+.pie-pagina .grupo-2 {
+    color: #D6D6D6;
+    padding: 15px 10px;
+    text-align: center;
+    margin-right: 200px;
+}
+
+.logo-footer {
+    max-width: 6rem;
+}

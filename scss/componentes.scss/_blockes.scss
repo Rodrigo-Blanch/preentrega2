@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Noto Sans Mono', monospace;
+}
+body {
+    background-color: $colorfondo; 
+}
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bodyProductos {
+    height: 158vh;
+    width: 100%;
+    margin: 0;
+}
+.maiPorductos {
+    padding: 0;
+    margin-top: 5rem;
+    height: 120vh;
+}
+.mainIndex {
+    height: 60vh;
+
+}
+.bodyIndex {
+    height: 110vh;
+    background-color: $colorfondo; 
+}
+.eventosMain {
+    padding: 0;
+    margin-top: 5rem;
+    height: 270vh;
+}
+.bodyEventos{
+    height: 330vh;
+    background-color: $colorfondo; 
+}
+
+h1 {
+    color: rgb(54, 15, 128)
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.maingalery {
+    padding: 0;
+    height: 130vh;
+}
+.bodyGaleria {
+    height: 150vh;
+}
+.bodyContactanos {
+    height: 90vh;
+}
+.mainContactanos {
+    padding: 0;
+    height: 70vh;
+}
